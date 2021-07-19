@@ -5,7 +5,7 @@ export default defineConfig({
   favicon: '/images/logo.png',
   logo: '/images/logo.png',
   outputPath: 'doc',
-  base: "https://alwaysloveme.github.io/doc",
+  base: "/doc/",
   publicPath: './',
   mode: "site",
   theme: {
