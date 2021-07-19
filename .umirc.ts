@@ -5,6 +5,7 @@ export default defineConfig({
   favicon: '/images/logo.png',
   logo: '/images/logo.png',
   outputPath: 'doc',
+  publicPath: './',
   mode: "site",
   theme: {
     '@primary-color': '#1DA57A',
