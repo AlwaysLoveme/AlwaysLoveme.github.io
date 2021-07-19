@@ -2,8 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: 'CodingMan',
-  favicon: '/images/logo.png',
-  logo: '/images/logo.png',
+  favicon: 'https://alwaysloveme.github.io/doc/images/logo.png',
+  logo: 'https://alwaysloveme.github.io/doc/images/logo.png',
   outputPath: 'doc',
   base: "/doc/",
   publicPath: './',
