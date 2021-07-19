@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'CodingMan',
   favicon: '/images/logo.png',
   logo: '/images/logo.png',
-  outputPath: 'docs-dist',
+  outputPath: 'doc',
   mode: "site",
   theme: {
     '@primary-color': '#1DA57A',
