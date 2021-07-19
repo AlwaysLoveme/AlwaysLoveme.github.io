@@ -6,12 +6,15 @@ export default defineConfig({
   logo: 'https://alwaysloveme.github.io/doc/images/logo.png',
   outputPath: 'doc',
   base: "/doc/",
-  publicPath: "./",
+  publicPath: process.env.NODE_ENV === 'production' ? '/doc/' : '/',
   mode: "site",
   theme: {
     '@primary-color': '#1DA57A',
   },
   hash: true,
+  // history: {
+  //   type: "hash",
+  // },
   exportStatic: {},
   locales: [['zh-CN', '中文']],
   navs: [
@@ -21,5 +24,8 @@ export default defineConfig({
       path: 'https://github.com/AlwaysLoveme',
     },
   ],
+  webpack5: {
+    lazyCompilation: {}
+  }
   // more config: https://d.umijs.org/config
 });
