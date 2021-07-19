@@ -11,6 +11,7 @@ export default defineConfig({
   theme: {
     '@primary-color': '#1DA57A',
   },
+  hash: true,
   exportStatic: {},
   locales: [['zh-CN', '中文']],
   navs: [
