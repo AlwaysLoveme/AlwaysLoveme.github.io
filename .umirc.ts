@@ -12,9 +12,6 @@ export default defineConfig({
     '@primary-color': '#1DA57A',
   },
   hash: true,
-  // history: {
-  //   type: "hash",
-  // },
   exportStatic: {},
   locales: [['zh-CN', '中文']],
   navs: [
@@ -26,6 +23,7 @@ export default defineConfig({
   ],
   webpack5: {
     lazyCompilation: {}
-  }
+  },
+  styles: ['https://alwaysloveme.github.io/doc/styles/global.css']
   // more config: https://d.umijs.org/config
 });

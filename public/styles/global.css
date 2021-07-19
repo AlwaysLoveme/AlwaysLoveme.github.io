@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Code;
+  src: url('../fonts/code.otf');
+}
+code[class*='language-'],
+pre[class*='language-'] {
+  font-family: Code, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+}
