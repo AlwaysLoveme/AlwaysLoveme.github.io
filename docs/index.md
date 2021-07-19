@@ -1,6 +1,8 @@
 ---
 title: 首页
 sidemenu: false
+toc: false
+footer: 1231231
 ---
 <!-- hero: 
   image: ""
